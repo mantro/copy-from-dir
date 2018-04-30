@@ -1,8 +1,11 @@
 {
   "name": "copy-from-dir",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
+  "bin": {
+    "copy-from-dir": "./index.js"
+  },
   "dependencies": {
     "prompt-checkbox": "^2.2.0"
   }
